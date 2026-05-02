@@ -1,0 +1,97 @@
+[
+  {
+    "scan_id": "20260502-171436",
+    "timestamp": "2026-05-02T17:14:36",
+    "target": "scanme.nmap.org",
+    "scan_mode": "Full Service Audit",
+    "speed": "-T4",
+    "open_service_count": 4,
+    "advisory_count": 2,
+    "services": [
+      {
+        "port": "22",
+        "protocol": "tcp",
+        "name": "ssh",
+        "product": "OpenSSH",
+        "version": "6.6.1p1 Ubuntu 2ubuntu2.13",
+        "extrainfo": "Ubuntu Linux; protocol 2.0"
+      },
+      {
+        "port": "80",
+        "protocol": "tcp",
+        "name": "http",
+        "product": "Apache httpd",
+        "version": "2.4.7",
+        "extrainfo": "(Ubuntu)"
+      },
+      {
+        "port": "9929",
+        "protocol": "tcp",
+        "name": "nping-echo",
+        "product": "Nping echo",
+        "version": null,
+        "extrainfo": null
+      },
+      {
+        "port": "31337",
+        "protocol": "tcp",
+        "name": "tcpwrapped",
+        "product": null,
+        "version": null,
+        "extrainfo": null
+      }
+    ],
+    "advisories": [
+      {
+        "port": "22",
+        "service": "ssh",
+        "product": "OpenSSH",
+        "version": "6.6.1p1 Ubuntu 2ubuntu2.13",
+        "cve": "CVE-2018-15473",
+        "severity": "medium",
+        "cvss": 5.3,
+        "summary": "User enumeration issue in older OpenSSH releases.",
+        "recommendation": "Upgrade OpenSSH to a supported release and disable password auth where possible."
+      },
+      {
+        "port": "80",
+        "service": "http",
+        "product": "Apache httpd",
+        "version": "2.4.7",
+        "cve": "CVE-2021-41773",
+        "severity": "high",
+        "cvss": 7.5,
+        "summary": "Path traversal in vulnerable Apache 2.4.x configurations.",
+        "recommendation": "Patch Apache to latest stable and enforce secure path normalization."
+      }
+    ]
+  },
+  {
+    "scan_id": "20260502-171614",
+    "timestamp": "2026-05-02T17:16:14",
+    "target": "google.com",
+    "scan_mode": "Full Service Audit",
+    "speed": "-T4",
+    "open_service_count": 2,
+    "advisory_count": 0,
+    "services": [
+      {
+        "port": "80",
+        "protocol": "tcp",
+        "name": "http",
+        "product": "gws",
+        "version": null,
+        "extrainfo": null
+      },
+      {
+        "port": "443",
+        "protocol": "tcp",
+        "name": "https",
+        "product": "gws",
+        "version": null,
+        "extrainfo": null
+      }
+    ],
+    "advisories": []
+  }
+]
