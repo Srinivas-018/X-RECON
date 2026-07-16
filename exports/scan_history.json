@@ -93,5 +93,89 @@
       }
     ],
     "advisories": []
+  },
+  {
+    "scan_id": "20260513-143536",
+    "timestamp": "2026-05-13T14:35:36",
+    "target": "google.com",
+    "scan_mode": "Full Service Audit",
+    "speed": "-T4",
+    "open_service_count": 2,
+    "advisory_count": 0,
+    "services": [
+      {
+        "port": "80",
+        "protocol": "tcp",
+        "name": "http",
+        "product": "gws",
+        "version": null,
+        "extrainfo": null
+      },
+      {
+        "port": "443",
+        "protocol": "tcp",
+        "name": "https",
+        "product": "gws",
+        "version": null,
+        "extrainfo": null
+      }
+    ],
+    "advisories": []
+  },
+  {
+    "scan_id": "20260513-143714",
+    "timestamp": "2026-05-13T14:37:14",
+    "target": "google.com",
+    "scan_mode": "Health Checks (Fast)",
+    "speed": "-T4",
+    "open_service_count": 2,
+    "advisory_count": 0,
+    "services": [
+      {
+        "port": "80",
+        "protocol": "tcp",
+        "name": "http",
+        "product": null,
+        "version": null,
+        "extrainfo": null
+      },
+      {
+        "port": "443",
+        "protocol": "tcp",
+        "name": "https",
+        "product": null,
+        "version": null,
+        "extrainfo": null
+      }
+    ],
+    "advisories": []
+  },
+  {
+    "scan_id": "20260513-144320",
+    "timestamp": "2026-05-13T14:43:20",
+    "target": "instagram.com",
+    "scan_mode": "Full Service Audit",
+    "speed": "-T5",
+    "open_service_count": 2,
+    "advisory_count": 0,
+    "services": [
+      {
+        "port": "80",
+        "protocol": "tcp",
+        "name": "http",
+        "product": "proxygen-bolt",
+        "version": null,
+        "extrainfo": null
+      },
+      {
+        "port": "443",
+        "protocol": "tcp",
+        "name": "https",
+        "product": null,
+        "version": null,
+        "extrainfo": null
+      }
+    ],
+    "advisories": []
   }
 ]
